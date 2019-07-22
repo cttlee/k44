@@ -289,10 +289,10 @@ void OnInit_InvalidNode(char *strIniFile)
 
 void OnInit_DThreshold_PanelDifferTest(char *strIniFile)
 {
-	char str[128], strTemp[MAX_KEY_VALUE_LEN], strValue[MAX_KEY_VALUE_LEN];
+	char str[MAX_KEY_VALUE_LEN], strTemp[MAX_KEY_VALUE_LEN], strValue[MAX_KEY_VALUE_LEN];
 	int MaxValue, MinValue;
 	int dividerPos = 0;
-	char str_tmp[128];
+	char str_tmp[MAX_KEY_VALUE_LEN];
 	int index = 0;
 	int k = 0, i = 0, j = 0;
 
@@ -390,10 +390,10 @@ void OnInit_DThreshold_PanelDifferTest(char *strIniFile)
 
 void OnInit_DThreshold_RawDataTest(char *strIniFile)
 {
-	char str[128], strTemp[MAX_KEY_VALUE_LEN], strValue[MAX_KEY_VALUE_LEN];
+	char str[MAX_KEY_VALUE_LEN], strTemp[MAX_KEY_VALUE_LEN], strValue[MAX_KEY_VALUE_LEN];
 	int MaxValue, MinValue;
 	int dividerPos = 0;
-	char str_tmp[128];
+	char str_tmp[MAX_KEY_VALUE_LEN];
 	int index = 0;
 	int k = 0, i = 0, j = 0;
 
@@ -704,10 +704,10 @@ void OnInit_DThreshold_RawDataTest(char *strIniFile)
 
 void OnInit_DThreshold_SCapRawDataTest(char *strIniFile)
 {
-	char str[128], strTemp[MAX_KEY_VALUE_LEN], strValue[MAX_KEY_VALUE_LEN];
+	char str[MAX_KEY_VALUE_LEN], strTemp[MAX_KEY_VALUE_LEN], strValue[MAX_KEY_VALUE_LEN];
 	int MaxValue, MinValue;
 	int dividerPos = 0;
-	char str_tmp[128];
+	char str_tmp[MAX_KEY_VALUE_LEN];
 	int index = 0;
 	int k = 0, i = 0, j = 0;
 
@@ -1050,10 +1050,10 @@ void OnInit_DThreshold_SCapRawDataTest(char *strIniFile)
 
 void OnInit_DThreshold_SCapCbTest(char *strIniFile)
 {
-	char str[128], strTemp[MAX_KEY_VALUE_LEN], strValue[MAX_KEY_VALUE_LEN];
+	char str[MAX_KEY_VALUE_LEN], strTemp[MAX_KEY_VALUE_LEN], strValue[MAX_KEY_VALUE_LEN];
 	int MaxValue, MinValue;
 	int dividerPos = 0;
-	char str_tmp[128];
+	char str_tmp[MAX_KEY_VALUE_LEN];
 	int index = 0;
 	int k = 0, i = 0, j = 0;
 
@@ -1410,10 +1410,10 @@ void OnInit_DThreshold_SCapCbTest(char *strIniFile)
 
 void OnInit_DThreshold_RxLinearityTest(char *strIniFile)
 {
-	char str[128], strTemp[MAX_KEY_VALUE_LEN], strValue[MAX_KEY_VALUE_LEN];
+	char str[MAX_KEY_VALUE_LEN], strTemp[MAX_KEY_VALUE_LEN], strValue[MAX_KEY_VALUE_LEN];
 	int MaxValue = 0;
 	int dividerPos = 0;
-	char str_tmp[128];
+	char str_tmp[MAX_KEY_VALUE_LEN];
 	int index = 0;
 	int k = 0, i = 0, j = 0;
 
@@ -1472,10 +1472,10 @@ void OnInit_DThreshold_RxLinearityTest(char *strIniFile)
 
 void OnInit_DThreshold_TxLinearityTest(char *strIniFile)
 {
-	char str[128], strTemp[MAX_KEY_VALUE_LEN], strValue[MAX_KEY_VALUE_LEN];
+	char str[MAX_KEY_VALUE_LEN], strTemp[MAX_KEY_VALUE_LEN], strValue[MAX_KEY_VALUE_LEN];
 	int MaxValue = 0;
 	int dividerPos = 0;
-	char str_tmp[128];
+	char str_tmp[MAX_KEY_VALUE_LEN];
 	int index = 0;
 	int k = 0, i = 0, j = 0;
 
@@ -1532,10 +1532,10 @@ void OnInit_DThreshold_TxLinearityTest(char *strIniFile)
 
 void OnInit_DThreshold_ForceTouch_SCapRawDataTest(char *strIniFile)
 {
-	char str[128], strTemp[MAX_KEY_VALUE_LEN], strValue[MAX_KEY_VALUE_LEN];
+	char str[MAX_KEY_VALUE_LEN], strTemp[MAX_KEY_VALUE_LEN], strValue[MAX_KEY_VALUE_LEN];
 	int MaxValue, MinValue;
 	int dividerPos = 0;
-	char str_tmp[128];
+	char str_tmp[MAX_KEY_VALUE_LEN];
 	int index = 0;
 	int k = 0, i = 0, j = 0;
 
@@ -1743,10 +1743,10 @@ void OnInit_DThreshold_ForceTouch_SCapRawDataTest(char *strIniFile)
 
 void OnInit_DThreshold_ForceTouch_SCapCbTest(char *strIniFile)
 {
-	char str[128], strTemp[MAX_KEY_VALUE_LEN], strValue[MAX_KEY_VALUE_LEN];
+	char str[MAX_KEY_VALUE_LEN], strTemp[MAX_KEY_VALUE_LEN], strValue[MAX_KEY_VALUE_LEN];
 	int MaxValue, MinValue;
 	int dividerPos = 0;
-	char str_tmp[128];
+	char str_tmp[MAX_KEY_VALUE_LEN];
 	int index = 0;
 	int k = 0, i = 0, j = 0;
 

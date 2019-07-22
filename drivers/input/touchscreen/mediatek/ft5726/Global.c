@@ -42,7 +42,7 @@ int GetPrivateProfileString(char *section, char *ItemName,
 			       char *defaultvalue, char *returnValue,
 			       char *IniFile)
 {
-	char value[512] = { 0 };
+	char value[MAX_KEY_VALUE_LEN] = { 0 };
 	int len = 0;
 
 	if (NULL == returnValue) {
